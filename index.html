@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/scss/main.css">
+</head>
+<body>
+    <div id="background-image">
+        <div class="logo">
+            <img src="/images/odin-lined.png" alt="logo" class="logo-image">
+            <p class="logo-text"><a href="https://github.com/taepal467" target="_blank">@taepal467</a></>
+        </div>
+
+        <div class="footer">
+            <p>Copyright&copy; 2022 created by Chantae P.</p>
+        </div>
+
+        <div class="image-caption">
+            <p>Photo by <a href="https://unsplash.com/@resul?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Resul Mentes 🇹🇷</a> on 
+                <a href="https://unsplash.com/collections/40x8KqRhZt8/texture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+            </p>
+        </div>
+    </div>
+
+    <main class="main-container">
+    <div class="header-content">
+        <h1>This is not a real online service! You know you need something like this in your life to help you realize
+            your deepest dreams. Sign up <em>now</em> to get started.
+        </h1>
+        <h2>You <em>know</em> you want to.</h2>
+    </div>
+
+    <div class="form-section">
+        <h2>Let's Do this!</h2>
+        <div class="form-content">
+        <form id="form">
+        <div class="left-section">
+            <label for="firstName">first name</label>
+            <input type="text" name="first_name" id="firstName">
+
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Password should include Uppercase, Lowercase and Numerical characters" required>
+        </div>
+
+        <div class="right-section">
+            <label for="lastName">last name</label>
+            <input type="text" name="last_name" id="lastName">
+
+            <label for="phone">phone number</label>
+            <input type="text" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Please enter a valid number using the format (###)-###-####">
+
+            <label for="password2">confirm password</label>
+            <input type="password" name="password2" id="password2" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+        </div>
+
+        <div class="account-login">
+            <button type="submit" class="btn">Create Account</button>
+            <p>Already have an account? 
+                <a href = "#!">Log in</a>
+            </p>
+        </div>
+     </form>
+    </div>
+</div>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
