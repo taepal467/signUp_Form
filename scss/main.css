@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-section {
+  -webkit-box-shadow: 5px 1px 7px 3px #afaaaa;
+          box-shadow: 5px 1px 7px 3px #afaaaa;
+  margin-top: 30px;
+  padding: 20px 110px 20px 240px;
+}
+
+.form-section h2 {
+  margin-left: -170px;
+  font-size: 1.25rem;
+}
+
+.form-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-content .left-section,
+.form-content .right-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.form-content input {
+  padding: 5px 10px;
+  width: 17vw;
+  border: 2px solid lightblue;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.form-content input[type=text]:focus,
+.form-content input[type=email]:focus,
+.form-content input[type=password]:focus {
+  background-color: lightblue;
+}
+
+.form-content label {
+  color: #227596;
+  margin-top: 15px;
+}
+
+.form-content input:valid {
+  border: 2px solid #227596;
+}
+
+.form-content input:invalid {
+  border: 2px solid red;
+}
+
+.form-content .left-section {
+  margin-left: -175px;
+  margin-right: 60px;
+}
+
+.form-content .right-section {
+  margin-top: -175px;
+  margin-left: 130px;
+}
+
+.account-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.account-login .btn {
+  padding: 10px 40px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.account-login .btn:hover {
+  background-color: #227596;
+  color: white;
+}
+
+.account-login p {
+  padding-top: 20px;
+}
+
+.account-login a {
+  color: lightblue;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.account-login a:hover {
+  color: #227596;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+#background-image {
+  background-image: url("/images/resul-mentes-DbwYNr8RPbg-unsplash.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 250px 40px 26px 40px;
+}
+
+#background-image .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -150px;
+}
+
+#background-image .logo .logo-image {
+  height: 180px;
+}
+
+#background-image .logo .logo-text {
+  font-family: 'Rubik Burned', cursive;
+  font-size: 5rem;
+  margin-top: 20px;
+}
+
+#background-image .logo .logo-text a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#background-image .logo .logo-text a:hover {
+  color: #227596;
+}
+
+.image-caption {
+  margin-top: 381px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.image-caption a {
+  color: whitesmoke;
+}
+
+.image-caption a:hover {
+  color: #227596;
+}
+
+.footer {
+  text-align: center;
+  color: whitesmoke;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-content h1 {
+  padding: 100px 190px 20px 70px;
+}
+
+.header-content h2 {
+  padding: 0 190px 0 70px;
+}
+
+.header-content h1, .header-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,79 @@
+@import "resets", "form", "button";
+
+body {
+    display: flex;
+    text-align: left;
+}
+
+#background-image {
+    background-image: url("/images/resul-mentes-DbwYNr8RPbg-unsplash.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 250px 40px 26px 40px;
+
+    .logo {
+        display: flex;
+        margin-top: -150px;
+
+        .logo-image {
+            height: 180px;
+        }
+
+        .logo-text {
+            font-family: 'Rubik Burned', cursive;
+            font-size: 5rem;
+            margin-top: 20px;
+
+            a {
+                color: whitesmoke;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: rgb(34, 117, 150);
+            }
+        }
+    }
+}
+
+.image-caption {
+    margin-top: 381px;
+    text-align: center;
+    color: whitesmoke;
+
+    a {
+        color: whitesmoke;
+        
+    }
+
+    a:hover{
+        color: rgb(34, 117, 150);
+    }
+}
+
+.footer {
+    text-align: center;
+    color: whitesmoke;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content {
+    h1 {
+        padding: 100px 190px 20px 70px;
+    }
+
+    h2 {
+        padding: 0 190px 0 70px;
+    }
+
+    h1,h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+}
